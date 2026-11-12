@@ -1,0 +1,78 @@
+ALL MY PROMPTS - Overprint Music Streaming Project
+===================================================
+
+PROMPT 1
+Can you make a interface like this basically there's a competition in my university frontend vibe coding competition and i wanted completely different from anyone here's the link check it out:
+https://youtube.com/shorts/yVXsS59LYJ0?si=2wdcSD4FSQI3bZqr
+
+PROMPT 2
+[Uploaded a screen-recording video of the reference website: 1000127970.mp4]
+
+PROMPT 3
+You don't have to build just tell me if you can make it or not
+
+PROMPT 4
+If i give you the topic will you able to create 3d like frontend according to the project idea and select the theme and add 3d scroll-driven website
+
+PROMPT 5
+Music Streaming Interface
+Inspired by Spotify, Apple Music, or SoundCloud.
+Create a modern music streaming platform. Participants can experiment with creative themes
+such as Y2K, Cyberpunk, Retro, Minimalist, or Futuristic. Include playlists, music categories,
+album cards, artist profiles, and a mock music player with functional play/pause controls.
+
+
+you dont have to make it whole just provide the code of html css and javascript if needed and all the guidance im building it on vs code and teach me like that ive never used it before
+
+PROMPT 6
+can i copy the code and paste it directly to the visual studio?
+
+PROMPT 7
+i wanted to add more artist like weeknd, coldplay, and many more and the interface kinda look simple can you add background 3d effects also
+
+PROMPT 8
+its not playing the actual artist song its just playing music
+
+PROMPT 9
+what if add artist faces also on albumbs?
+
+PROMPT 10
+not all songs are playing when i click them the simple music is playing
+
+PROMPT 11
+i want all songs to be worked and tell me how can i add full songs version also i want to add a feature in which i can drag the playing song where i want to like from start to middle of the song
+
+PROMPT 12
+it shows preview not found
+
+PROMPT 13
+can we change the background it looks like white and grey thats making it simple
+
+PROMPT 14
+[Uploaded a screenshot of the hero text: "Pick a record, press play, then scroll. The ink separates and the record opens up."]
+whats that means? we have to put it or not?
+
+PROMPT 15
+can add more artists
+
+PROMPT 16
+[Uploaded a screenshot of the Artists list with the scrollbar]
+this scroll bar looks so simple i wanted a good one
+
+PROMPT 17
+can we change the cursor too?
+
+PROMPT 18
+how can i upload my this folder on github and make repository in this folder there 3 files html css javascript guide step by step
+
+PROMPT 19
+description of my project small
+
+PROMPT 20
+make it small
+
+PROMPT 21
+https://github.com/tahamasood-dev/Music-Player.git this is my repo link tell me command to push my project through vbs code
+
+PROMPT 22
+give me all the propmpt i gave you and make a txt file of it
