@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Overprint | music in layers</title>
+  <!-- Fonts from Google (needs internet). Fallbacks are set in style.css -->
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="bg"></canvas>
+
+  <header class="top">
+    <a class="logo" href="#">Overprint</a>
+    <nav>
+      <a href="#albums">Albums</a>
+      <a href="#playlists">Playlists</a>
+      <a href="#artists">Artists</a>
+    </nav>
+  </header>
+
+  <!-- HERO: text on the left, 3D vinyl on the right -->
+  <section class="hero">
+    <div class="copy">
+      <h1>Hear it in layers.</h1>
+      <p>Pick a record, press play, then scroll. The ink separates and the record opens up.</p>
+      <button class="big" id="heroPlay">Play something</button>
+    </div>
+    <div class="scene">
+      <div class="disc" id="disc">
+        <div class="layer l1"></div>
+        <div class="layer l2"></div>
+        <div class="layer l3"><div class="grooves" id="grooves"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="albums">
+    <h2>Albums</h2>
+    <div class="chips" id="chips"></div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section id="playlists">
+    <h2>Playlists</h2>
+    <div class="lists" id="lists"></div>
+  </section>
+
+  <section id="artists">
+    <h2>Artists</h2>
+    <div class="artist-wrap">
+      <div class="artist-pick" id="artistPick"></div>
+      <article class="artist-card" id="artistCard"></article>
+    </div>
+  </section>
+
+  <!-- MOCK PLAYER (fixed to the bottom) -->
+  <footer class="player" id="player">
+    <div class="now">
+      <div id="pCover" class="cover small"></div>
+      <div>
+        <strong id="pTitle">Nothing playing</strong>
+        <span id="pArtist">Choose an album</span>
+      </div>
+    </div>
+    <div class="controls">
+      <button id="prev" aria-label="Previous">&#9198;</button>
+      <button id="play" class="playbtn" aria-label="Play or pause">&#9654;</button>
+      <button id="next" aria-label="Next">&#9197;</button>
+    </div>
+    <div class="bar">
+      <span id="time">0:00</span>
+      <input type="range" id="seek" class="seek" min="0" max="1000" value="0" aria-label="Seek through the song">
+      <span id="dur">0:30</span>
+      <input type="range" id="vol" min="0" max="1" step="0.01" value="0.6" aria-label="Volume">
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
